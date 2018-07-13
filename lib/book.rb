@@ -1,2 +1,20 @@
-# book.rb
-# Add you Book class here
+Book.new("And Then There Were None")
+
+class Book
+  
+  def initialize(title)
+    @title = title
+  end
+  
+  def title
+    @title
+  end
+  
+  def author= (author)
+    @author = author
+  end
+  
+  def author
+    @author
+  
+end
